@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisein</title>
+    <link rel="shortcut icon" href="{{asset('doc/logo.jpg')}}" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <style>
+          .navbar.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important; /* Align nav items to the right by default */
+  }
+  .navbar.navbar-expand-lg .navbar-collapse.center-nav {
+    justify-content: center !important; /* Center-align the nav items when the center-nav class is added */
+  }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+<!--nav-->
+<nav class="navbar navbar-expand-lg bg-white fixed-top" data-aos="fade-down">
+  <div class="container">
+    <a class="navbar-brand">Sisein Creative Agency</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"  id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link"  href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a href="#review" class="nav-link">Review</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--hero section-->
+<section id="home" class="bg-cover hero-section" style="background-image: url('doc/team.jpg');">
+<div class="overlay"></div>
+<div class="container text-white text-center"  >
+    <div class="row">
+        <div class="col-12" >
+            <h1 class="display-4"  data-aos="zoom-in"> We Promote Brands to <br>
+            connect with potential customers</h1>
+            <p class="my-4"data-aos='fade-up'>This includes not only email, social media, and 
+             web-based advertising, <br>
+              but also text and multimedia messages as a marketing channel
+            </p>
+            <a href="#services" data-aos='fade-up' class="btn btn-main">Get Started</a>
+        </div>
+    <div>
+</div>
+</section>
+
+<!--service section-->
+<section id="services">
+  <div class="container  ">
+    <div class="row">
+      <div class="col-12 text-center section-intro"data-aos="fade-up" data-aos-duration="800">
+        <h1 class="mt-4"   >Our Services</h1>
+        <div class="devider"></div>
+        <p>We Create the visual design and the content for the various Marketing Purpose. <br>Social Media ( Facebook, Instagram, LinkIn, and youtube)<br>               
+             Printing Design ( Vinyl, Pamphlet, Packaging Design )
+</p>
+      </div>
+    </div> 
+    <div class="row mb-5" >
+        <div class="col-md-4 text-center"  data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="service">
+                <div class="service-img">
+                    <img src="doc/graphic.jpg" alt="">
+                    <div class="icon" ><i class="fa-solid fa-paintbrush"></i></div></div>
+                    <h5 class="pt-5">Design Creation</h5>
+                    <p>Nurturing a passion for design, our company consistently produces graphics that harmonize creativity and precision, leaving an enduring imprint with their visually captivating and profoundly resonant designs.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center"  data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="service">
+                <div class="service-img">
+                    <img src="doc/content.jpg" alt="">
+                    <div class="icon" ><i class="fa-solid fa-pen"></i></div></div>
+                    <h5 class="pt-5">Content Writing</h5>
+                    <p>Crafting compelling content isn't just about words; it's about connecting with your audience on a meaningful level. Discover how our expert content writing services can turn ideas into engaging narratives that resonate and inspire action.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center"  data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="service">
+                <div class="service-img">
+                    <img src="doc/marketing.jpg" alt="">
+                    <div class="icon" ><i class="fa-solid fa-chart-simple"></i></div></div>
+                    <h5 class="pt-5">Facebook Boost Marketing</h5>
+                    <p>Unleash the power of social media with Facebook Boost Marketing. Our strategies amplify your brand's voice, expanding your reach to the right audience. Let us help you harness the potential of this dynamic platform for unprecedented growth.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--about section-->
+<section id="about" class="bg-cover hero-section" style="background-image: url('doc/camera.jpg');">
+<div class="overlay"></div>
+<div class="container text-white text-center"  >
+    <div class="row">
+        <div class="col-12" >
+            <h1 class="display-4"  data-aos="zoom-in">Sisein also provide Commercial and Product Photography</h1>
+            <p class="my-4"data-aos='fade-up'>We Provide the services of Commercial Production and the Product Photography<br>
+            Good commercial Photography is a marketing tool that can really enhance the selling potential
+            </p>
+            <a href="#blog" data-aos='fade-up' class="btn btn-play">Play</a>
+        </div>
+    <div>
+</div>
+</section>
+
+<!-- blog -->
+<section id="blog">
+    <div class="container">
+    <div class="col-12 text-center section-intro"data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="mt-4"   >Video Content Production <br> ( Advertising )</h1>
+        <div class="devider" style="width:350px"></div>
+      </div>
+        <div class="row d-flex ">
+            <div class="col-md-6"  data-aos="fade-right">
+                <div class="blog-video mt-5 mb-5 mx-auto">
+                <iframe class="mp4"   src="https://www.youtube.com/embed/bn2AM4tJJhY" frameborder="0" allowfullscreen ></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mb-5 mx-auto text-center alinkar" data-aos="zoom-in">
+                <h4>Unveiling the Magic Through Video Production</h4>
+                <p>In an exciting collaboration that marries creativity with culinary charm, Sisein Marketing Agency and A Lin Kar Cafe House have come together to craft a captivating video production. This visual masterpiece takes viewers on a delightful journey through the heart and soul of A Lin Kar, capturing its essence in a truly enchanting way.</p>
+            </div>
+            <div class="row d-flex ">
+            <div class="col-md-6 mt-5 mb-5 mx-auto text-center alinkar" data-aos="zoom-in">
+                <h4>Collaborative Brainstorming</h4>
+                <p>At the heart of our journey lies Smile Clinic, an institution dedicated to helping individuals regain their confidence and embrace their best selves through personalized beauty and plastic surgery treatments. Their commitment to excellence and innovation provided the perfect canvas for Sisein Creative Agency to weave its creative magic.</p>
+            </div>
+            <div class="col-md-6"  data-aos="fade-left">
+                <div class="blog-video mt-5 mb-5 mx-auto">
+                <iframe class="mp4"   src="https://www.youtube.com/embed/xwAZ_Uzgdiw" frameborder="0" allowfullscreen ></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex mt-5 ">
+        <div class="col-md-4 text-center">
+            <div class="blog-icon mb-4 mx-auto"><i class="fa-solid fa-plate-wheat fa-bounce"></i></div>
+            <h3>Menu Photography</h3>
+            <p>Menu photography is a culinary art that tantalizes taste buds through the lens. It's a visual storytelling medium, capturing the essence of dishes and inviting diners to experience a gastronomic journey.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="blog-icon mb-4 mx-auto"><i class="fa-solid fa-camera fa-bounce"></i></div>
+            <h3>Artistic Photography</h3>
+            <p>Artistic Photography: Where imagination and reality converge to create captivating visual narratives.Capture emotions, stories, and the essence of life itself through the lens of Artistic Photography</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="blog-icon mb-4 mx-auto"><i class="fa-solid fa-video fa-bounce"></i></div>
+            <h3>Advertising Video</h3>
+            <p>Unleash the persuasive power of advertising videos to captivate audiences and convey your brand's narrative effortlessly.Craft a lasting brand impression through advertising videos, merging visuals and storytelling into influential medium</p>
+        </div>
+    </div>
+</section>
+<!-- review -->
+
+<section id="review" class="bg-cover hero-section" style="background-image: url('doc/review.jpg');">
+<div class="overlay"></div>
+<div class="container text-white text-center"  >
+<div class="col-12 text-center section-intro"data-aos="fade-up" data-aos-duration="300">
+        <h1 class="mt-4"   >Check out for while</h1>
+        <div class="devider" ></div>
+      </div>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <form action="#" class="row g-4">
+                <div class="form-group col-md-6">
+                    <input type="text" placeholder="Full name" id="" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" placeholder="Email address" id="" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                    <input type="text" placeholder="Subject" id="" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea name="" class="form-control" id="" cols="30" rows="4" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-main" type="submit" onclick="alert('Thank you for your review')">Sent Message</button>
+                </div>
+            </form>
+        </div>
+</div>
+</section>
+<div >
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section id="contact"
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/SiseinCreativeagency" target="_blank" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="mailto: info.sisein@gmail.com" target="_blank" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        
+        <a href="https://www.youtube.com/@sisein138" target="_blank" class="text-white me-4">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sisein-creative-agency-8b5322277/" target="_blank" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section >
+      <div class="container text-center text-md-start mt-5 footer-div">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Sisein Creative Agency
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a  class="text-white">Digital Marketing</a>
+            </p>
+            <p>
+              <a  class="text-white">Facebook Consulting</a>
+            </p>
+            <p>
+              <a  class="text-white">Digital Production</a>
+            </p>
+            <p>
+              <a  class="text-white">Advertising</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful  tips</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a  class="text-white">Expert Insights</a>
+            </p>
+            <p>
+              <a  class="text-white">Design Trends</a>
+            </p>
+            <p>
+              <a  class="text-white">Effective Branding</a>
+            </p>
+            <p>
+              <a  class="text-white">Content Strategy</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i>No17, Htee Tan 2nd St, Kyimyindaing Tsp, Yangon , Yangon, Myanmar</p>
+            <p><i class="fas fa-envelope mr-3"></i> info.sisein@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i>+95 9 740 938228</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+         © 2023 Sisein Creative Agency. All rights reserved.
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://kit.fontawesome.com/57f8478079.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+    function toggleNavCenter() {
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navbarCollapse.classList.toggle('center-nav');
+    }
+  </script>
+</body>
+</html>
