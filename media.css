@@ -1,4 +1,8 @@
 @media (max-width: 300px) {
+    html , body {
+    margin:0;
+    overflow-x: hidden;
+}
     .mp4{
         width:150px !important;
         height:50px !important;
@@ -39,6 +43,10 @@
 }
 
 @media (max-width: 767px) {
+    html , body {
+    margin:0;
+    overflow-x: hidden;
+}
 .mp4{
     width:350px !important;
     height:250px !important;
@@ -69,6 +77,10 @@
     .body{
         font: size 20px !important;
     }
+    html , body {
+    margin:0;
+    overflow-x: hidden;
+}
 }
 
 @media (min-width: 1024px) {
